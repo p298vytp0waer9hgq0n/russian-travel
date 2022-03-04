@@ -1,0 +1,9 @@
+.header {
+  width: 100%;
+  min-height: 52px;
+  display: flex;
+  justify-content: right;
+  align-items: end;
+  gap: 18px;
+  background: url('../../images/russia_logo.svg') left / contain no-repeat;
+}

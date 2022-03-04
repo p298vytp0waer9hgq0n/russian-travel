@@ -1,5 +1,17 @@
 .page {
-  font-family: 'Inter';
+  box-sizing: border-box;
+  max-width: 1280px;
+  margin: auto;
+  padding: 28px 48px 24px 48px;
+  display: grid;
+  justify-items: center;
+  font-family: 'Inter', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   background: #2a2c2f;
   color: #fff;
+}
+
+.page * {
+  margin: 0;
 }

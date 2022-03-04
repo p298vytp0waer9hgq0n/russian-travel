@@ -1,0 +1,8 @@
+.places__place {
+  width: 100%;
+  display: grid;
+  grid: auto-flow / repeat(auto-fit, minmax(min-content, 49%));
+  justify-content: center;
+  column-gap: 17px;
+  padding-top: 80px;
+}

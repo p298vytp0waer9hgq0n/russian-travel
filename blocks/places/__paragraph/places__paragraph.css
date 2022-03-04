@@ -1,0 +1,8 @@
+.places__paragraph {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  min-width: 200px;
+  font-size: 18px;
+  line-height: 1.615;
+}
