@@ -1,5 +1,6 @@
 .info {
-  max-width: 984px;
-  padding: 92px 100px;
-  justify-self: start;
+  box-sizing: border-box;
+  width: min(1080px, 100%);
+  padding: 92px 48px;
+  overflow: auto;
 }

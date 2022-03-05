@@ -1,9 +1,11 @@
 .header {
+  box-sizing: border-box;
   width: 100%;
   min-height: 52px;
+  padding: 0 48px;
   display: flex;
   justify-content: right;
   align-items: end;
   gap: 18px;
-  background: url('../../images/russia_logo.svg') left / contain no-repeat;
+  background: url('../../images/russia_logo.svg') left / contain no-repeat content-box;
 }
