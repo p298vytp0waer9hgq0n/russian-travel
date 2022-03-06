@@ -3,3 +3,12 @@
   font-weight: 900;
   font-size: 54px;
 }
+
+@media screen and (max-width: 320px) {
+  .info__title {
+    margin-bottom: 40px;
+    width: 80%;
+    font-size: 32px;
+    line-height: 1.1;
+  }
+}

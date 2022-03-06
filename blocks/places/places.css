@@ -1,5 +1,17 @@
 .places {
   box-sizing: border-box;
   width: min(1080px, 100%);
-  padding: 0 48px 92px 48px;
+  padding: 0 48px 92px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places {
+    padding: 0 max(calc((100% - 928px)/2), 24px) 92px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    padding: 0 0 66px;
+  }
 }

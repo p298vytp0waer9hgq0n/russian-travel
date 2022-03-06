@@ -2,5 +2,22 @@
   box-sizing: border-box;
   width: min(1080px, 100%);
   padding: 92px 48px;
-  overflow: auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .info {
+    padding: 92px max(calc((100% - 928px)/2), 24px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .info {
+    padding: 88px max(calc((100% - 720px)/2), 16px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .info {
+    padding: 64px 16px;
+  }
 }

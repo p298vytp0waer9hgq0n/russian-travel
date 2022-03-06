@@ -7,3 +7,10 @@
   align-items: center;
   text-align: center;
 }
+
+@media screen and (max-width: 1024px) {
+  .lead {
+    width: min(928px, 100%);
+    padding: 48px 0 0;
+  }
+}

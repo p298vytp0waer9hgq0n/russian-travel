@@ -1,8 +1,21 @@
 .places__place {
   width: 100%;
   display: grid;
-  grid: auto-flow / repeat(auto-fit, minmax(min-content, 49%));
+  grid: auto-flow / repeat(auto-fit, minmax(350px, 1fr));
   justify-content: center;
   column-gap: 17px;
   padding-top: 80px;
+}
+
+@media screen and (max-width: 768px) {
+  .places__place {
+    padding-top: 73px;
+    grid: auto-flow / repeat(auto-fit, minmax(270px, 1fr));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places__place {
+    padding-top: 50px;
+  }
 }

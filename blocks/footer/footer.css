@@ -4,4 +4,27 @@
   padding: 92px 48px 0 48px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: min(976px, 100%);
+    padding: 92px 24px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .footer {
+    flex-direction: column;
+    justify-self: start;
+    width: auto;
+    padding: 64px 16px 0;
+  }
 }
